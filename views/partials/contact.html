@@ -1,0 +1,56 @@
+<section class="contact-section section-wrap" id="contacto" aria-labelledby="contact-title">
+  <div class="contact-card">
+    <div class="contact-copy">
+      <p class="eyebrow">Hablemos de arte</p>
+      <h2 id="contact-title">¿Te interesa una obra o un <em>encargo?</em></h2>
+      <p>
+        Cuéntame qué tienes en mente. Puedes preguntar por una pintura, su
+        disponibilidad o proponer una idea para crear algo especial.
+      </p>
+    </div>
+    <form class="contact-form" id="contact-form">
+      <div class="form-row">
+        <div class="form-field">
+          <label for="contact-name">Tu nombre</label>
+          <input
+            id="contact-name"
+            name="nombre"
+            autocomplete="name"
+            required
+          />
+        </div>
+        <div class="form-field">
+          <label for="contact-email">Tu correo</label>
+          <input
+            id="contact-email"
+            name="correo"
+            type="email"
+            autocomplete="email"
+            required
+          />
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="contact-subject">¿En qué te puedo ayudar?</label>
+        <select id="contact-subject" name="tema" required>
+          <option value="" selected disabled>Elige un tema</option>
+          <option value="Consulta sobre una obra">Consulta sobre una obra</option>
+          <option value="Encargo personalizado">Encargo personalizado</option>
+          <option value="Otra consulta">Otra consulta</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="contact-message">Tu mensaje</label>
+        <textarea id="contact-message" name="mensaje" rows="4" required></textarea>
+      </div>
+      <button class="button button-light form-submit" type="submit">
+        Preparar mensaje <span aria-hidden="true">↗</span>
+      </button>
+      <p class="form-note" id="form-status" role="status" aria-live="polite">
+        Se abrirá un borrador dirigido a Angie; revísalo y pulsa enviar en tu
+        aplicación de correo.
+      </p>
+    </form>
+    <span class="contact-decoration" aria-hidden="true">LA</span>
+  </div>
+</section>
