@@ -1,10 +1,10 @@
 const rutasParciales = {
-  "#site-header": "../views/partials/header.html",
-  "#hero-view": "../views/partials/hero.html",
-  "#gallery-view": "../views/partials/gallery.html",
-  "#artist-view": "../views/partials/artist.html",
-  "#contact-view": "../views/partials/contact.html",
-  "#site-footer": "../views/partials/footer.html",
+  "#site-header": "/views/partials/header.html",
+  "#hero-view": "/views/partials/hero.html",
+  "#gallery-view": "/views/partials/gallery.html",
+  "#artist-view": "/views/partials/artist.html",
+  "#contact-view": "/views/partials/contact.html",
+  "#site-footer": "/views/partials/footer.html",
 };
 
 export class CuadroView {

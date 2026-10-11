@@ -32,7 +32,7 @@ const server = http.createServer(async (request, response) => {
   }
 
   const relativePath =
-    pathname === "/" ? "views/index.html" : pathname.replace(/^\/+/, "");
+    pathname === "/" ? "index.html" : pathname.replace(/^\/+/, "");
   const filePath = path.resolve(rootDirectory, relativePath);
 
   if (!filePath.startsWith(`${rootDirectory}${path.sep}`)) {
